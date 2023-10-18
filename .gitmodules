@@ -1,0 +1,3 @@
+[submodule "ExternalRepos/ojwalch-sleep_classifiers"]
+	path = ExternalRepos/ojwalch-sleep_classifiers
+	url = https://github.com/ojwalch/sleep_classifiers
