@@ -1,3 +1,6 @@
 [submodule "ExternalRepos/ojwalch-sleep_classifiers"]
 	path = ExternalRepos/ojwalch-sleep_classifiers
 	url = https://github.com/ojwalch/sleep_classifiers
+[submodule "ExternalRepos/trackthatsleep-snoozr"]
+	path = ExternalRepos/trackthatsleep-snoozr
+	url = https://github.com/trackthatsleep/snoozr
