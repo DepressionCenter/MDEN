@@ -10,3 +10,6 @@
 [submodule "ExternalRepos/ojwalch-predicting_dlmo"]
 	path = ExternalRepos/ojwalch-predicting_dlmo
 	url = https://github.com/ojwalch/predicting_dlmo
+[submodule "ExternalRepos/Stanford-STATES-SleepStagePrediction"]
+	path = ExternalRepos/Stanford-STATES-SleepStagePrediction
+	url = https://github.com/Stanford-STAGES/SleepStagePrediction
