@@ -13,3 +13,18 @@
 [submodule "ExternalRepos/Stanford-STATES-SleepStagePrediction"]
 	path = ExternalRepos/Stanford-STATES-SleepStagePrediction
 	url = https://github.com/Stanford-STAGES/SleepStagePrediction
+[submodule "ExternalRepos/ojwalch-actigraphy-scripts"]
+	path = ExternalRepos/ojwalch-actigraphy-scripts
+	url = https://github.com/ojwalch/actigraphy-scripts
+[submodule "ExternalRepos/SRI-human-sleep-sleep-trackers-performance"]
+	path = ExternalRepos/SRI-human-sleep-sleep-trackers-performance
+	url = https://github.com/SRI-human-sleep/sleep-trackers-performance
+[submodule "ExternalRepos/jamieyap-CountSMART"]
+	path = ExternalRepos/jamieyap-CountSMART
+	url = https://github.com/jamieyap/CountSMART
+[submodule "ExternalRepos/Arcascope-device_calendar"]
+	path = ExternalRepos/Arcascope-device_calendar
+	url = https://github.com/Arcascope/device_calendar
+[submodule "ExternalRepos/Arcascope-screen-scrape"]
+	path = ExternalRepos/Arcascope-screen-scrape
+	url = https://github.com/Arcascope/screen-scrape
