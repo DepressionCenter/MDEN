@@ -28,3 +28,6 @@
 [submodule "ExternalRepos/Arcascope-screen-scrape"]
 	path = ExternalRepos/Arcascope-screen-scrape
 	url = https://github.com/Arcascope/screen-scrape
+[submodule "ExternalRepos/Stanford-Health-wearipedia"]
+	path = ExternalRepos/Stanford-Health-wearipedia
+	url = https://github.com/Stanford-Health/wearipedia
