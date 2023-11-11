@@ -31,3 +31,6 @@
 [submodule "ExternalRepos/Stanford-STAGES-SleepStagePrediction"]
 	path = ExternalRepos/Stanford-STAGES-SleepStagePrediction
 	url = https://github.com/Stanford-STAGES/SleepStagePrediction
+[submodule "ExternalRepos/sobradob-shinyapp"]
+	path = ExternalRepos/sobradob-shinyapp
+	url = https://github.com/sobradob/shinyapp
