@@ -34,3 +34,6 @@
 [submodule "ExternalRepos/sobradob-shinyapp"]
 	path = ExternalRepos/sobradob-shinyapp
 	url = https://github.com/sobradob/shinyapp
+[submodule "ExternalRepos/wadpac-GGIR"]
+	path = ExternalRepos/wadpac-GGIR
+	url = https://github.com/wadpac/GGIR
