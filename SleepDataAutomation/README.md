@@ -17,7 +17,7 @@ Automated sleep data cleanup and processing for Fitbit data obtained via Fitabas
 + Click Refresh Preview. If there are no errors, click File -> Save and Load.
 + In Excel, under the Data ribbon, click Refresh All.
 + The data table will now have a row for every participant, per day, with measures such as sleep start/end times, sleep duration, and average RMMSD / HF / LF.
-+ To use sleep markers, setup a shared mailbox to which participants can send an SMS/MMS message. Participants should send a text to that email address with the format "ParticipantID sleep" upon waking, and "ParticipantID wake" upon waking up.
++ To use sleep markers, setup a shared mailbox to which participants can send an SMS/MMS message. Participants should send a text to that email address with the format "ParticipantID sleep" upon going to sleep, and "ParticipantID wake" upon waking up.
 + In the shared mailbox, create two top-level folders called "Data-Processed" and "Data-Failed". Power Automate will automatically move emails to one of these folders after processing. Anything under Data-Failed will need to be processed manually.
 + Login to OneDrive for Business (if you are a Michigan Medicine user, login using your level-2 credentials). Create a folder called EmailSleepMarkers or similar. In this project, we use a mailbox called "sleeptimes@....edu" so the folder is called EmailSleepMarkers-SleepTimesMailbox. Upload the sample EmailSleepMakers.xlsx spreadsheet to this folder, and clear all rows except the headers.
 + Login to [Power Automate](https://make.powerautomate.com) (if you are a Michigan Medicine user, login using your level-2 credentials). Go to My Flows -> Import -> Import Package (Legacy) and upload a copy of ParseMessagesInSleepTimesMailbox.zip (from the PowerAutomate\packages sub-dirctory). When prompted, enter your credentials to connect to OneDrive and Outlook.
@@ -52,7 +52,7 @@ If you need assistance identifying a contact person, email the EFDC's Mobile Tec
 #### Contributors:
 + Eisenberg Family Depression Center [(@DepressionCenter)](https://github.com/DepressionCenter/)
 + Gabriel Mongefranco [(@gabrielmongefranco)](https://github.com/gabrielmongefranco)
-+ [Sleep and Circadian Research Laboratory](https://medicine.umich.edu/dept/psychiatry/programs/sleep/sleep-circadian-research-laboratory): [Helen J. Burgess, Ph.D.](https://medicine.umich.edu/dept/psychiatry/helen-burgess-phd); [Moony Ryzvydeen](https://www.linkedin.com/in/muneer-rizvydeen-b3b26254?original_referer=https%3A%2F%2Fdepressioncenter.org); [Zainab Fayyaz](https://mcommunity.umich.edu/person/fzainab) 
++ [Sleep and Circadian Research Laboratory](https://medicine.umich.edu/dept/psychiatry/programs/sleep/sleep-circadian-research-laboratory): [Helen J. Burgess, Ph.D.](https://medicine.umich.edu/dept/psychiatry/helen-burgess-phd); [Moony Rizvydeen](https://www.linkedin.com/in/muneer-rizvydeen-b3b26254?original_referer=https%3A%2F%2Fdepressioncenter.org); [Zainab Fayyaz](https://mcommunity.umich.edu/person/fzainab) 
 
 
 
