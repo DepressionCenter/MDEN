@@ -5,6 +5,7 @@
 ## Description
 Automated sleep data cleanup and processing for Fitbit data obtained via Fitabase and self-reported sleep diary entries sent via SMS-to-Email. This project uses Microsoft Power Automate for processing sleep diary entries in a shared mailbox, and Excel / Power Query for loading and cleaning sleep stages and HRV data.
 
+![Sleep Data Automation Output Screenshot](https://github.com/DepressionCenter/MDEN/blob/1ba004e1297de82580cc98ec4852cec86e161ce1/SleepDataAutomation/SleepDataAutomation-Screenshot.png "Sleep Data Automation Output Example")
 
 
 ## Quick Start Guide
