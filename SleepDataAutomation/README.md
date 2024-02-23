@@ -5,7 +5,21 @@
 ## Description
 Automated sleep data cleanup and processing for Fitbit data obtained via Fitabase and self-reported sleep diary entries sent via SMS-to-Email. This project uses Microsoft Power Automate for processing sleep diary entries in a shared mailbox, and Excel / Power Query for loading and cleaning sleep stages and HRV data.
 
+### What this automation does:
++ Parse sms-to-email messages to get a list of sleep markers (self-reported sleep/wake times) into a spreadsheet
++ Decipher the correct sleep/wake times based on sleep stages from Fitabase (because Fitbit includes time in bed before and after sleep sometimes)
++ From that, get the correct total time asleep, time awake, time in bed, and other measures
++ Use the calculated sleep/wake times to get the correct HRV values falling only inside that time window, and calculate averages for RMSSD/HF/LF
++ Combine sleep stages, HRV and email markers (sleep diary)
++ Present everything in a single sheet with one row per participant, per day, per sleep episode. (Researchers would manually filter out naps, if any).
++ Show a weekly summary with a drop-down to select the study participant and the week
+
+
 ![Sleep Data Automation Output Screenshot](https://github.com/DepressionCenter/MDEN/blob/1ba004e1297de82580cc98ec4852cec86e161ce1/SleepDataAutomation/SleepDataAutomation-Screenshot.png "Sleep Data Automation Output Example")
+
+
+![Sleep Data Automation Weekly Summary Screenshot](https://github.com/DepressionCenter/MDEN/blob/36693a1ad17f6e23ed9c0acc021958483dd025a2/SleepDataAutomation/SleepDataAutomation-WeeklySummary-Screenshot.png "Sleep Data Automation Weekly Summary Example")
+
 
 
 ## Quick Start Guide
@@ -30,6 +44,7 @@ Automated sleep data cleanup and processing for Fitbit data obtained via Fitabas
 
 ## Documentation
 Most documentation is available at the Eisenberg Family Depression Center's [Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/Home/).
+
 
 
 ## Additional Resources
