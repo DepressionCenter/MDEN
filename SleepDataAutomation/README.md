@@ -8,10 +8,13 @@ Automated sleep data cleanup and processing for Fitbit data obtained via Fitabas
 ### What this automation does:
 + Parse sms-to-email messages to get a list of sleep markers (self-reported sleep/wake times) into a spreadsheet
 + Decipher the correct sleep/wake times based on sleep stages from Fitabase (because Fitbit includes time in bed before and after sleep sometimes)
++ Identify the main sleep episode and filter out naps, based on configurable settings (longest duration, latest sleep episode, etc.)
 + From that, get the correct total time asleep, time awake, time in bed, and other measures
 + Use the calculated sleep/wake times to get the correct HRV values falling only inside that time window, and calculate averages for RMSSD/HF/LF
 + Combine sleep stages, HRV and email markers (sleep diary)
-+ Present everything in a single sheet with one row per participant, per day, per sleep episode. (Researchers would manually filter out naps, if any).
++ Optionally, adjust the sleep/wake up times based on self-reported times automatically when actual vs self-reported differ by a certain number of minutes
++ Option to enter manual time adjustments in an override file, which will will override both Fitbit and self-reported times
++ Present everything in a single sheet with one row per participant, per day, per sleep episode
 + Show a weekly summary with a drop-down to select the study participant and the week
 
 
@@ -23,12 +26,25 @@ Automated sleep data cleanup and processing for Fitbit data obtained via Fitabas
 
 
 ## Quick Start Guide
++ Download the Excel-PowerQuery directory
++ Save your Fitbit, sleep markers, and sleep override files to the CSV directory
++ Open CleanSleepData.xlsx, adjust the parameters in Power Query, and refresh all data
++ To use sms-to-email sleep markers, import the Power Automate zip file into your Power Automate environment, adjust the mailbox name and output location for OneDrive, and create the needed directories in the mailbox
+
+
+
+
+## Documentation
+Most documentation is available at the Eisenberg Family Depression Center's [Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/Home/).
+
+### Detailed Setup
 + Download the Excel-PowerQuery directory.
 + Login to Fitabase, and create a "merged" export that includes 30-second sleep stages and 5-minute HRV. Be sure to click the "merge" checkbox so all participants are included in one file per measure.
 + Download and unzip the export, and place the two CSV files in the Excel-PowerQuery\CSV sub-directory.
 + Open CleanSleepData.xlsx in Excel. Alternatively, load CleanSleepData-PowerQuery.odc in PowerBI Desktop.
 + In Excel, right-click on the data table and select Table -> Edit Query to open Power Query.
 + Find the CSV-Directory parameter and enter your local path to the CSV sub-directory.
++ Adjust the other optional parameters for automatically adjusting times based on sleep diary entries, how to identify main sleep vs naps, etc.
 + Click Refresh Preview. If there are no errors, click File -> Save and Load.
 + In Excel, under the Data ribbon, click Refresh All.
 + The data table will now have a row for every participant, per day, with measures such as sleep start/end times, sleep duration, and average RMMSD / HF / LF.
@@ -39,11 +55,6 @@ Automated sleep data cleanup and processing for Fitbit data obtained via Fitabas
 + Once imported, edit the flow and change the shared mailbox email address in the 2nd step, under "Set Shared Mailbox Address Here." Then scroll down to the last step, and change the path to your EmailSleepMarkers.xlsx spreadsheet (saved to OneDrive) under the step titled "Add a row into a table."
 + Enable the flow. By default it will run every 30 minutes and process 25 emails at a time. Do not run it more often than this to avoid being throttled by the Microsoft Graph API.
 + Emails will be processed and saved to the spreadsheet in OneDrive. Once a week, copy the spreadsheet from OneDrive and place it in the CSV sub-directory. Refresh the data, and the sleep markers will show alongside the sleep and HRV data.
-
-
-
-## Documentation
-Most documentation is available at the Eisenberg Family Depression Center's [Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/Home/).
 
 
 
