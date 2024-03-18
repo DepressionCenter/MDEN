@@ -35,7 +35,7 @@ Automated sleep data cleanup and processing for Fitbit data obtained via Fitabas
 
 
 ## Documentation
-Most documentation is available at the Eisenberg Family Depression Center's [Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/Home/).
+Documentation for this project is available at the Eisenberg Family Depression Center's [Knowledge Base](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/ArticleDet?ID=11822).
 
 ### Detailed Setup
 + Download the Excel-PowerQuery directory.
