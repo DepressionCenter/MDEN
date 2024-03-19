@@ -80,7 +80,7 @@ Free Documentation License". If not, see <https://www.gnu.org/licenses/fdl-1.3-s
 ## Citation
 If you find this repository, code or paper useful for your research, please cite it.
 
-*Eisenberg Family Depression Center, Mongefranco, Gabriel, et. all. (2024). MDEN. University of Michigan. https://github.com/DepressionCenter/MDEN. https://doi.org/10.6084/M9.FIGSHARE.25438714*
+*Eisenberg Family Depression Center, Mongefranco, Gabriel, et al. (2024). MDEN. University of Michigan. https://github.com/DepressionCenter/MDEN. https://doi.org/10.6084/M9.FIGSHARE.25438714*
 
   *DOI: 10.6084/M9.FIGSHARE.25438714*
 
