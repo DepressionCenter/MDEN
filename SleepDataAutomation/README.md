@@ -118,6 +118,13 @@ Free Documentation License". If not, see <https://www.gnu.org/licenses/fdl-1.3-s
 ## Citation
 If you find this repository, code or paper useful for your research, please cite it.
 
+
+*Eisenberg Family Depression Center, Mongefranco, Gabriel, et al. (2024). MDEN - Sleep Data Automation for Fitbit. University of Michigan. https://github.com/DepressionCenter/MDEN/SleepDataAutomation. https://doi.org/10.6084/M9.FIGSHARE.25438714*
+
+  *DOI: 10.6084/M9.FIGSHARE.25438714*
+
+
+
 ----
 
 Copyright © 2024 The Regents of the University of Michigan
