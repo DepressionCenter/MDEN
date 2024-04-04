@@ -9,7 +9,7 @@ Mobile technologies code from the University of Michigan's Mobile Data Experts N
 ### Project Listing
 + **[REDCap Examples](/REDCap-Examples)** - Examples of REDCap projects from research studies at the University of Michigan and Michigan Medicine.
 + **[Sleep Data Automation](/SleepDataAutomation)** - Automated sleep data cleanup and processing for Fitbit data obtained via Fitabase and self-reported sleep diary entries sent via SMS-to-Email.
-+ **[External Repositories](/REDCap-Examples)** - Links to other repositories, projects and libraries that maybe helpful to researchers who work with mobile data.
++ **[External Repositories](/ExternalRepos)** - Links to other repositories, projects and libraries that maybe helpful to researchers who work with mobile data.
 
 
 
