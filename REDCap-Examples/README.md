@@ -6,8 +6,9 @@ This folder contains examples of REDCap projects from research studies at the Un
 
 ## Quick Start Guide
 + Download the desired project file (XML).
-+ Upload the file to your test/training REDCap instance.
++ [Upload the file](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/ArticleDet?ID=10779) to your test/training REDCap instance.
 + Customize the project file.
++ For additional examples, see [#REDCap-Examples](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/Search?SearchText=%2523REDCap-examples) in the Depression Center's Knowledge Base.
 
 
 ## Documentation
