@@ -37,3 +37,6 @@
 [submodule "ExternalRepos/wadpac-GGIR"]
 	path = ExternalRepos/wadpac-GGIR
 	url = https://github.com/wadpac/GGIR
+[submodule "ExternalRepos/irinagain-iglu"]
+	path = ExternalRepos/irinagain-iglu
+	url = https://github.com/irinagain/iglu
