@@ -6,15 +6,16 @@ This is a listing of external repositories, projects, and libraries that maybe h
 + [@Arcascope **Circadian**](https://github.com/Arcascope/circadian). A computational package for the simulation and analysis of circadian rhythms.
 + [@Arcascope **Device_Calendar**](https://github.com/Arcascope/device_calendar). A cross platform plugin for modifying calendars on the user's device.
 + [@Arcascope **Screen-Scrape**](https://github.com/Arcascope/screen-scrape). Open source script for scraping screen time from screenshots of iPhones.
-+ [@SRI-Human-Sleep **Sleep-Trackers-Performance**](https://github.com/SRI-human-sleep/sleep-trackers-performance). Analytical pipeline and R functions for testing the performance of sleep-tracking technology.
-+ [@Stanford-Health **Wearipedia**](https://github.com/Stanford-Health/wearipedia). A one-stop shop for wearable device data extraction and simulation.
-+ [@Standord-STAGES **SleepStagePrediction**](https://github.com/Stanford-STAGES/SleepStagePrediction). Deep learning-based prediction of sleep stages using wearable accelerometry and photoplethysmography.
++ [@DepressionCenter **SleepDataAutomation**](https://github.com/DepressionCenter/SleepDataAutomation). Automated sleep data cleanup and processing to harmonize Fitbit data obtained via Fitabase with self-reported sleep diary entries sent via SMS-to-Email. [10.6084/m9.figshare.25669173.v1].
 + [@irinagain **iglu**](https://github.com/irinagain/iglu). R package for Interpreting GLUcose data from CGMs (Continuous Glucose Monitors).
 + [@jamieyap **CountSMART**](https://github.com/jamieyap/CountSMART). Code to estimate sample size needed to compare dynamic treatment regimens using longitudinal count outcomes from a Sequential Multiple Assignment Randomized Trial (SMART).
 + [@manateelab **EMAeval-R-Package**](https://github.com/manateelab/EMAeval-R-Package). The R package EMAeval contains functions created to help researchers identify careless responses as well as responders in Ecological Momentary Assessment (EMA) data.
 + [@ojwalch **actigraphy-scripts**](https://github.com/ojwalch/actigraphy-scripts). Open-source scripts for processing actigraphy data.
 + [@ojwalch **predicting_dlmo**](https://github.com/ojwalch/predicting_dlmo). Source code for predictdlmo.com. It implements the 2007 St. Hilaire model of the human circadian clock to predict DLMO on the last day of a recording in response to uploaded actigraphy data.
 + [@sobradob **shinyapp (ShinyGPS)**](https://github.com/sobradob/shinyapp). An R Shiny App for visualising human movements over time using sensor data from Android devices.
++ [@SRI-Human-Sleep **Sleep-Trackers-Performance**](https://github.com/SRI-human-sleep/sleep-trackers-performance). Analytical pipeline and R functions for testing the performance of sleep-tracking technology.
++ [@Stanford-Health **Wearipedia**](https://github.com/Stanford-Health/wearipedia). A one-stop shop for wearable device data extraction and simulation.
++ [@Standord-STAGES **SleepStagePrediction**](https://github.com/Stanford-STAGES/SleepStagePrediction). Deep learning-based prediction of sleep stages using wearable accelerometry and photoplethysmography.
 + [@trackthatsleep **snoozr**](https://github.com/trackthatsleep/snoozr). Scraping your Fitbit data for scientific discovery (and longitudinal sleep analyses).
 + [@wadpac **GGIR**](https://github.com/wadpac/GGIR). R package GGIR for raw accelerometer data analysis. A tool to process and analyse data collected with wearable raw acceleration sensors.
 
