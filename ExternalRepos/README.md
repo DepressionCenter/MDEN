@@ -16,6 +16,7 @@ This is a listing of external repositories, projects, and libraries that maybe h
 + [@SRI-Human-Sleep **Sleep-Trackers-Performance**](https://github.com/SRI-human-sleep/sleep-trackers-performance). Analytical pipeline and R functions for testing the performance of sleep-tracking technology.
 + [@Stanford-Health **Wearipedia**](https://github.com/Stanford-Health/wearipedia). A one-stop shop for wearable device data extraction and simulation.
 + [@Standord-STAGES **SleepStagePrediction**](https://github.com/Stanford-STAGES/SleepStagePrediction). Deep learning-based prediction of sleep stages using wearable accelerometry and photoplethysmography.
++ [@tokern **PIIcatcher**](https://github.com/tokern/piicatcher). Scan databases and data warehouses for PII data. Tag tables and columns in data catalogs like Amundsen and Datahub.
 + [@trackthatsleep **snoozr**](https://github.com/trackthatsleep/snoozr). Scraping your Fitbit data for scientific discovery (and longitudinal sleep analyses).
 + [@wadpac **GGIR**](https://github.com/wadpac/GGIR). R package GGIR for raw accelerometer data analysis. A tool to process and analyse data collected with wearable raw acceleration sensors.
 
