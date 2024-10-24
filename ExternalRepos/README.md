@@ -18,6 +18,7 @@ This is a listing of external repositories, projects, and libraries that maybe h
 + [@Standord-STAGES **SleepStagePrediction**](https://github.com/Stanford-STAGES/SleepStagePrediction). Deep learning-based prediction of sleep stages using wearable accelerometry and photoplethysmography.
 + [@tokern **PIIcatcher**](https://github.com/tokern/piicatcher). Scan databases and data warehouses for PII data. Tag tables and columns in data catalogs like Amundsen and Datahub.
 + [@trackthatsleep **snoozr**](https://github.com/trackthatsleep/snoozr). Scraping your Fitbit data for scientific discovery (and longitudinal sleep analyses).
++ [@tryVital **vital-python**](https://github.com/tryVital/vital-python). The Vital Python library provides access to the Vital API (commercial wearable data aggregator) from applications written in Python.
 + [@wadpac **GGIR**](https://github.com/wadpac/GGIR). R package GGIR for raw accelerometer data analysis. A tool to process and analyse data collected with wearable raw acceleration sensors.
 
 
