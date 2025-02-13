@@ -8,7 +8,7 @@ Mobile technologies code from the University of Michigan's Mobile Data Experts N
 
 ### Project Listing
 + **[REDCap Examples](/REDCap-Examples)** - Examples of REDCap projects from research studies at the University of Michigan and Michigan Medicine.
-+ **[Sleep Data Automation](/SleepDataAutomation)** - Automated sleep data cleanup and processing for Fitbit data obtained via Fitabase and self-reported sleep diary entries sent via SMS-to-Email.
++ **[Sleep Data Automation](https://michmed.org/sleepdata)** - Automated sleep data cleanup and processing for Fitbit data obtained via Fitabase and self-reported sleep diary entries sent via SMS-to-Email.
 + **[External Repositories](/ExternalRepos)** - Links to other repositories, projects and libraries that maybe helpful to researchers who work with mobile data.
 
 
@@ -51,7 +51,7 @@ If you need assistance identifying a contact person, email the EFDC's Mobile Tec
 #### Contributors:
 + Eisenberg Family Depression Center [(@DepressionCenter)](https://github.com/DepressionCenter/)
 + Gabriel Mongefranco [(@gabrielmongefranco)](https://github.com/gabrielmongefranco)
-+ Members of MDEN, MCN and DIGIT-MI at the University of Michigan
++ Members of the Mobile Data Experts Network ([MDEN](https://depressioncenter.org/mden)) and [MeTRIC](https://metric.umich.edu) at the University of Michigan
 
 
 #### This work is based in part on the following projects, libraries and/or studies:
