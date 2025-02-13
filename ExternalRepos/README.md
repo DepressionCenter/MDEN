@@ -17,6 +17,7 @@ This is a listing of external repositories, projects, and libraries that maybe h
 + [@ojwalch **actigraphy-scripts**](https://github.com/ojwalch/actigraphy-scripts). Open-source scripts for processing actigraphy data.
 + [@ojwalch **predicting_dlmo**](https://github.com/ojwalch/predicting_dlmo). Source code for predictdlmo.com. It implements the 2007 St. Hilaire model of the human circadian clock to predict DLMO on the last day of a recording in response to uploaded actigraphy data.
 + [@sobradob **shinyapp (ShinyGPS)**](https://github.com/sobradob/shinyapp). An R Shiny App for visualising human movements over time using sensor data from Android devices.
++ [Siepe, Björn S., et al. **WARN-D EMA Item Performance**](https://osf.io/yf3up/) Understanding Ecological-Momentary-Assessment Data: A Tutorial on Exploring Item Performance in Ecological-Momentary-Assessment Data.
 + [@SRI-Human-Sleep **Sleep-Trackers-Performance**](https://github.com/SRI-human-sleep/sleep-trackers-performance). Analytical pipeline and R functions for testing the performance of sleep-tracking technology.
 + [@Stanford-Health **Wearipedia**](https://github.com/Stanford-Health/wearipedia). A one-stop shop for wearable device data extraction and simulation.
 + [@Standord-STAGES **SleepStagePrediction**](https://github.com/Stanford-STAGES/SleepStagePrediction). Deep learning-based prediction of sleep stages using wearable accelerometry and photoplethysmography.
