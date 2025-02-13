@@ -1,7 +1,7 @@
 # REDCap Project Examples
 
 ## Description
-This folder contains examples of REDCap projects from research studies at the University of Michigan and Michigan Medicine. These examples have been provided by members of the Mobile Data Experts Network (MDEN), MCN and MeTRIC.
+This folder contains examples of REDCap projects from research studies at the University of Michigan and Michigan Medicine. These examples come from faculty, research coordinators, data analysts and research staff who are members of the Mobile Technologies Research Innovation Collaborative ([MeTRIC](https://metric.umich.edu/)), Mobile Data Experts Network ([MDEN](https://depressioncenter.org/mden)), Mobile Coordinators Network ([MCN](https://depressioncenter.org/mcn)), and [DIGIT-MI](https://depressioncenter.org/digit-mi); as well as other university partners of the Eisenberg Family Depression Center.
 
 
 ## Quick Start Guide
