@@ -7,8 +7,12 @@ This folder contains examples of REDCap projects from research studies at the Un
 ## Quick Start Guide
 + Download the desired project file (XML).
 + [Upload the file](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/ArticleDet?ID=10779) to your test/training REDCap instance.
-+ Customize the project file.
-+ For additional examples, see [#REDCap-Examples](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/Search?SearchText=%2523REDCap-examples) in the Depression Center's Knowledge Base.
++ Customize the project file as needed and publish it.
+
+
+## List of Templates and Examples
++ **Morning Light Stress Study** by _Helen Burgess, Moony Rizvydeen, et. al._ This REDCap project is used in the Morning Light Stress Study, whose principal investigator is Dr. Helen Burgess, Ph.D., professor of psychiatry and co-director of the Sleep and Circadian Research Laboratory at Michigan Medicine. The project consists of over 50 forms and surveys with 1,257 questions that cover eConsent, demographics, medical history, mental health instruments, and satisfaction surveys. More information is available in [this KB article](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/ArticleDet?ID=10813).
++ **For additional examples**, see [#REDCap-Examples](https://teamdynamix.umich.edu/TDClient/210/DepressionCenter/KB/Search?SearchText=%2523REDCap-examples) in the Depression Center's Knowledge Base.
 
 
 ## Documentation
